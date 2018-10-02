@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1536714031 source:c:\users\lenovo\desktop\ia\ia-tarea1\graph\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdlib.h>
+	<time.h>
+	"graph.cpp"
+	"Point.h"
+	"nodeAndEdge.h"
+
+1536111145 c:\users\lenovo\desktop\quadtree_gl\quadtree\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1536712600 source:c:\users\lenovo\desktop\ia\ia-tarea1\graph\graph.cpp
+	"graph.h"
+	"Point.h"
+	<iostream>
+	<random>
+	<algorithm>
+	<stdlib.h>
+	<time.h>
+
+1536690246 c:\users\lenovo\desktop\ia\ia-tarea1\graph\graph.h
+	"nodeAndEdge.h"
+	<vector>
+
+1536669316 c:\users\lenovo\desktop\ia\ia-tarea1\graph\nodeandedge.h
+	<vector>
+
+1536669316 c:\users\lenovo\desktop\ia\ia-tarea1\graph\point.h
+	<cmath>
+	<iostream>
+
+1536717603 c:\users\lenovo\desktop\ia\ia-tarea1\graph\graph.cpp
+	"graph.h"
+	"Point.h"
+	<iostream>
+	<random>
+	<algorithm>
+	<stdlib.h>
+	<time.h>
+

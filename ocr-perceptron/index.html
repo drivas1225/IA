@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <meta name="description" content="UI for Perceptron digit recognizer">
+                <title>Digit Recognizer</title>
+                <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+                <link href="css/starter-template.css" rel="stylesheet">
+        </head>
+
+        <body>
+
+
+                <div class="container">
+
+                        
+                        <div>
+                                <div class="col-md-6 fixed-table">
+                                        <table class="table" id="digit-matrix">
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                        <td>0</td>
+                                                </tr>
+                                        </table>
+                                </div>
+                                <div class="col-md-6">
+                                        <h2 class="center">El n&uacute;mero es:</h2>
+                                        <h3 id="result" class="center">0</h3>
+                                        <div class="col-sm-12">
+                                                <button type="button" onclick="clearTable()" class="btn btn-default action-btn">Borrar</button>
+                                        </div>
+                                        <div class="col-sm-12">
+                                                <button type="button" onclick="recognizeMatrix()" class="btn btn-primary action-btn">Reconocer</button>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+                        <script src="dist/js/bootstrap.min.js"></script>
+                        <script src="js/main.js"></script>
+        </body>
+</html>
