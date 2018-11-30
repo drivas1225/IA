@@ -15,14 +15,16 @@
 ?h <- (numero ?n&:(< ?n ?*numero*))
 =>
 (retract ?h)
-(printout t ?n " es bajo" crlf)
+(printout t ?n " es menor" crlf)
 (assert (lee)))
+
 (defrule alto
 ?h <- (numero ?n&:(> ?n ?*numero*))
 =>
 (retract ?h)
-(printout t ?n " es alto" crlf)
+(printout t ?n " es mayor" crlf)
 (assert (lee)))
+
 (defrule exacto
 ?h <- (numero ?n&:(= ?n ?*numero*))
 =>
